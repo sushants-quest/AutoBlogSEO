@@ -227,6 +227,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </Link>
           </div>
         </div>
+      
+        <a href="/blog/smartphone-vs--keypad-phone-blog--which-device-is-right-for-you-" className="hover:text-primary">Blog: Smartphone vs. Keypad Phone Blog: Which Device is Right for You?</a>
       </nav>
 
       {/* Cover */}
