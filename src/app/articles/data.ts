@@ -1,3 +1,4 @@
+import { metadata as meta_prompting_power__mastering_the_art_of_vibe_coding_in_2026 } from '@/app/api/blog/prompting-power--mastering-the-art-of-vibe-coding-in-2026'
 import { metadata as meta_lights__camera__chapters__why_you_need_a_book_vs__movie_blog } from '@/content/blog/lights--camera--chapters--why-you-need-a-book-vs--movie-blog'
 export interface Article {
   slug: string
@@ -11,6 +12,7 @@ export interface Article {
 }
 
 export const articles: Article[
+  { ...meta_prompting_power__mastering_the_art_of_vibe_coding_in_2026, content: '' },
   { ...meta_lights__camera__chapters__why_you_need_a_book_vs__movie_blog, content: '' },] = [
   {
     slug: 'how-ai-writes-seo-blogs-that-rank',
