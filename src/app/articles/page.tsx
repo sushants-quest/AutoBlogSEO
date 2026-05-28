@@ -30,6 +30,8 @@ export default function ArticlesPage() {
             </Link>
           </div>
         </div>
+      
+        <a href="/blog/mobile-app-vs--website-blog--which-is-best-for-your-brand-" className="px-4 py-2 bg-primary text-white rounded hover:bg-primary/90 transition">Read Blog: Mobile App vs. Website Blog: Which is Best For Your Brand?</a>
       </nav>
 
       <div className="max-w-5xl mx-auto px-6 py-16">
