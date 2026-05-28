@@ -1,3 +1,4 @@
+import { metadata as meta_lights__camera__chapters__why_you_need_a_book_vs__movie_blog } from '@/content/blog/lights--camera--chapters--why-you-need-a-book-vs--movie-blog'
 export interface Article {
   slug: string
   title: string
@@ -9,7 +10,8 @@ export interface Article {
   content: string
 }
 
-export const articles: Article[] = [
+export const articles: Article[
+  { ...meta_lights__camera__chapters__why_you_need_a_book_vs__movie_blog, content: '' },] = [
   {
     slug: 'how-ai-writes-seo-blogs-that-rank',
     title: 'How AI Writes SEO Blogs That Actually Rank in 2024',
